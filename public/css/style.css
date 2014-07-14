@@ -1,0 +1,548 @@
+@font-face {
+  font-family: Brasil2014;
+  src: url("/font/Brasil2014.ttf") format("truetype");
+}
+html {
+  min-height: 100%;
+  width: 100%;
+}
+body {
+  color: #f0f018;
+  font-size: 14px;
+  font-family: Brasil2014, sans-serif;
+  height: 100%;
+  padding-top: 50px;
+  width: 100%;
+}
+a {
+  color: #f0f018;
+  text-decoration: none;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.bra-color {
+  color: #ffea3c;
+}
+.ned-color {
+  color: #fd7322;
+}
+.col-color {
+  color: #ffea3c;
+}
+.crc-color {
+  color: #ff1b3d;
+}
+.fra-color {
+  color: #00385f;
+}
+.arg-color {
+  color: #adf4f8;
+}
+.ger-color {
+  color: #ffffff;
+}
+.bel-color {
+  color: #ff1b3d;
+}
+.mex-color {
+  color: #0d7352;
+}
+.chi-color {
+  color: #fc223f;
+}
+.gre-color {
+  color: #0a56a1;
+}
+.uru-color {
+  color: #b7f4f8;
+}
+.swi-color {
+  color: #fc223f;
+}
+.nga-color {
+  color: #0d7352;
+}
+.usa-color {
+  color: #ffffff;
+}
+.alg-color {
+  color: #18a354;
+}
+.bra-colors1 {
+  color: #00a456;
+  background-color: #ffea3c;
+}
+.ned-colors1 {
+  color: #ffffff;
+  background-color: #fd7322;
+}
+.col-colors1 {
+  color: #00385f;
+  background-color: #ffea3c;
+}
+.crc-colors1 {
+  color: #00385f;
+  background-color: #ff1b3d;
+}
+.fra-colors1 {
+  color: #fffcff;
+  background-color: #00385f;
+}
+.arg-colors1 {
+  color: #00559c;
+  background-color: #adf4f8;
+}
+.ger-colors1 {
+  color: #1c1c1c;
+  background-color: #ffffff;
+}
+.bel-colors1 {
+  color: #fef03d;
+  background-color: #ff1b3d;
+}
+.mex-colors1 {
+  color: #dfa465;
+  background-color: #0d7352;
+}
+.chi-colors1 {
+  color: #faf9fe;
+  background-color: #fc223f;
+}
+.gre-colors1 {
+  color: #ffffff;
+  background-color: #0a56a1;
+}
+.uru-colors1 {
+  color: #d9a265;
+  background-color: #b7f4f8;
+}
+.swi-colors1 {
+  color: #fffdfe;
+  background-color: #fc223f;
+}
+.nga-colors1 {
+  color: #fdfdfd;
+  background-color: #0d7352;
+}
+.usa-colors1 {
+  color: #084691;
+  background-color: #b7f4f8;
+}
+.alg-colors1 {
+  color: #feffff;
+  background-color: #18a354;
+}
+.bra-colors2 {
+  color: #ffea3c;
+  background-color: #00a456;
+}
+.ned-colors2 {
+  color: #fd7322;
+  background-color: #ffffff;
+}
+.col-colors2 {
+  color: #ffea3c;
+  background-color: #00385f;
+}
+.crc-colors2 {
+  color: #ff1b3d;
+  background-color: #00385f;
+}
+.fra-colors2 {
+  color: #00385f;
+  background-color: #fffcff;
+}
+.arg-colors2 {
+  color: #adf4f8;
+  background-color: #00559c;
+}
+.ger-colors2 {
+  color: #ffffff;
+  background-color: #1c1c1c;
+}
+.bel-colors2 {
+  color: #ff1b3d;
+  background-color: #fef03d;
+}
+.mex-colors2 {
+  color: #0d7352;
+  background-color: #dfa465;
+}
+.chi-colors2 {
+  color: #fc223f;
+  background-color: #faf9fe;
+}
+.gre-colors2 {
+  color: #0a56a1;
+  background-color: #ffffff;
+}
+.uru-colors2 {
+  color: #b7f4f8;
+  background-color: #d9a265;
+}
+.swi-colors2 {
+  color: #fc223f;
+  background-color: #fffdfe;
+}
+.nga-colors2 {
+  color: #0d7352;
+  background-color: #fdfdfd;
+}
+.usa-colors2 {
+  color: #ffffff;
+  background-color: #d9a265;
+}
+.alg-colors2 {
+  color: #18a354;
+  background-color: #feffff;
+}
+#wrapper {
+  background-color: #a8c018;
+  height: 100%;
+  width: 100%;
+}
+#header {
+  background-color: #007800;
+  position: fixed;
+  top: 0;
+  height: 50px;
+  width: 100%;
+}
+#header .logo {
+  font-size: 1.8em;
+  line-height: 50px;
+}
+#main {
+  width: 100%;
+}
+.container {
+  margin: 0 5%;
+}
+.bra-style {
+  color: #00a456;
+  background-color: #ffea3c;
+}
+.bra-style .goal p {
+  color: #ffea3c;
+  background-color: #00a456;
+}
+.ned-style {
+  color: #ffffff;
+  background-color: #fd7322;
+}
+.ned-style .goal p {
+  color: #fd7322;
+  background-color: #ffffff;
+}
+.col-style {
+  color: #00385f;
+  background-color: #ffea3c;
+}
+.col-style .goal p {
+  color: #ffea3c;
+  background-color: #00385f;
+}
+.crc-style {
+  color: #00385f;
+  background-color: #ff1b3d;
+}
+.crc-style .goal p {
+  color: #ff1b3d;
+  background-color: #00385f;
+}
+.fra-style {
+  color: #fffcff;
+  background-color: #00385f;
+}
+.fra-style .goal p {
+  color: #00385f;
+  background-color: #fffcff;
+}
+.arg-style {
+  color: #00559c;
+  background-color: #adf4f8;
+}
+.arg-style .goal p {
+  color: #adf4f8;
+  background-color: #00559c;
+}
+.ger-style {
+  color: #1c1c1c;
+  background-color: #ffffff;
+}
+.ger-style .goal p {
+  color: #ffffff;
+  background-color: #1c1c1c;
+}
+.bel-style {
+  color: #fef03d;
+  background-color: #ff1b3d;
+}
+.bel-style .goal p {
+  color: #ff1b3d;
+  background-color: #fef03d;
+}
+.flag {
+  display: inline-block;
+  height: 12px;
+  width: 20px;
+}
+#champion {
+  background: url("/imgs/2405202_big-lnd.jpg") no-repeat fixed;
+  background-size: 100%;
+  background-position: center 20px;
+  height: 600px;
+  width: 100%;
+}
+#knockout-stage .matches {
+  width: 100%;
+}
+#knockout-stage .match {
+  float: left;
+}
+#knockout-stage .match > div {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 70px;
+  margin: 0 auto;
+  max-width: 110px;
+  padding-top: 10px;
+}
+#knockout-stage .up-lines {
+  width: 100%;
+}
+#knockout-stage .up-lines .line {
+  background: #f0f018;
+  margin: 0 auto;
+  height: 20px;
+  width: 1px;
+}
+#knockout-stage .vs-lines {
+  width: 100%;
+}
+#knockout-stage .vs-lines .line {
+  border: 1px solid;
+  border-bottom: 0;
+  margin: 0 auto;
+  height: 20px;
+  width: 50%;
+}
+#knockout-stage #final .match {
+  width: 100%;
+}
+#knockout-stage #third .match {
+  width: 40%;
+}
+#knockout-stage #third .up-line {
+  float: left;
+  height: 130px;
+  width: 20%;
+}
+#knockout-stage #third .up-line .line {
+  background: #f0f018;
+  height: 100%;
+  margin: 0 auto;
+  width: 1px;
+}
+#knockout-stage #third .blank {
+  float: left;
+  height: 1px;
+  width: 40%;
+}
+#knockout-stage #semi .match {
+  width: 50%;
+}
+#knockout-stage #quater .match {
+  width: 25%;
+}
+#knockout-stage #quater .up-lines > div {
+  float: left;
+  width: 50%;
+}
+#knockout-stage #quater .vs-lines > div {
+  float: left;
+  width: 50%;
+}
+#knockout-stage #round .match {
+  width: 12.5%;
+}
+#knockout-stage #round .up-lines > div {
+  float: left;
+  width: 25%;
+}
+#knockout-stage #round .vs-lines > div {
+  float: left;
+  width: 25%;
+}
+#knockout-stage .date {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 4px;
+  word-spacing: 0.6em;
+}
+#knockout-stage .result {
+  width: 100%;
+}
+#knockout-stage .result > div {
+  float: left;
+}
+#knockout-stage .result .team-l {
+  width: 30%;
+  text-align: center;
+  text-transform: uppercase;
+}
+#knockout-stage .result .team-r {
+  width: 30%;
+  text-align: center;
+  text-transform: uppercase;
+}
+#knockout-stage .result .blank {
+  height: 1px;
+  width: 40%;
+}
+#knockout-stage .flags {
+  width: 100%;
+}
+#knockout-stage .flags > div {
+  float: left;
+  text-align: center;
+  width: 30%;
+}
+#knockout-stage .flags .goal {
+  text-align: center;
+  width: 17%;
+}
+#knockout-stage .flags .goal p {
+  margin: 0 auto;
+  height: 15px;
+  width: 15px;
+}
+#knockout-stage .flags .score {
+  width: 6%;
+}
+#knockout-stage .extra {
+  padding-top: 4px;
+  width: 100%;
+  text-align: center;
+}
+#group-stage {
+  background: url("/imgs/2405422_BIG-LND.jpg") no-repeat fixed;
+  background-size: 100%;
+  background-position: center;
+  margin-top: 50px;
+  padding: 100px 0;
+}
+#group-stage .group {
+  float: left;
+}
+@media screen {
+  #group-stage .group {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #group-stage .group {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 500px) {
+  #group-stage .group {
+    width: 100%;
+  }
+}
+#group-stage .group > div {
+  padding: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+@media screen {
+  #group-stage .group > div {
+    margin: 10px auto;
+    max-width: 200px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #group-stage .group > div {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  #group-stage .group > div {
+    margin: 3px auto;
+    max-width: 100%;
+  }
+}
+#group-stage p.group-name {
+  font-size: 1.4em;
+  text-align: center;
+  width: 100%;
+}
+#group-stage p.group-name span {
+  text-transform: uppercase;
+}
+#group-stage .group-table {
+  margin: 10px 0;
+}
+#group-stage .group-table .row {
+  width: 100%;
+}
+#group-stage .group-table .row > div {
+  float: left;
+}
+#group-stage .group-table .cell {
+  text-align: center;
+  width: 10%;
+}
+#group-stage .group-table .team-cell {
+  float: left;
+  width: 40%;
+}
+#group-stage .group-table .team-cell span {
+  margin-left: 3px;
+  text-transform: uppercase;
+}
+#group-stage .matches {
+  width: 100%;
+}
+#group-stage .matches .round {
+  margin-top: 10px;
+}
+#group-stage .matches .match {
+  width: 100%;
+  padding: 1px 0;
+}
+#group-stage .matches .match > div {
+  float: left;
+}
+#group-stage .matches .team-l {
+  text-align: right;
+  width: 40%;
+}
+#group-stage .matches .team-l p {
+  margin-right: 5px;
+}
+#group-stage .matches .team-r {
+  text-align: left;
+  width: 40%;
+}
+#group-stage .matches .team-r p {
+  margin-left: 5px;
+}
+#group-stage .matches .goal {
+  text-align: center;
+  width: 8%;
+}
+#group-stage .matches .goal p {
+  margin: 0 auto;
+  height: 15px;
+  width: 15px;
+}
+#group-stage .matches .score {
+  width: 4%;
+  text-align: center;
+}

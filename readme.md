@@ -1,4 +1,6 @@
-## Site for World Cup 2014
+# Site for World Cup 2014
+
+Designed and developed by myself
 
 
 ## Built by these
@@ -9,7 +11,7 @@
 
 [LESS](http://lesscss.org/)
 
-[CoffeeScript](http://coffeescript.org/)
+[Coffeescript](http://coffeescript.org/)
 
 
 ## Resources be used

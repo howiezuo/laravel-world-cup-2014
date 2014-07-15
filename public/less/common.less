@@ -21,10 +21,76 @@ a {
   color: @color-base;
   text-decoration: none;
 }
-.clearfix:after{
+.clearfix:after {
   content: "";
   clear: both;
   display: block;
+}
+
+// responsive
+.visible-sm {
+  @media screen {
+    display: none;
+    @media (max-width: @screen-sm) {
+      display: block;
+    }
+  }
+}
+.visible-md {
+  @media screen {
+    display: none;
+    @media (min-width: (@screen-sm + 1px)) and (max-width: @screen-md) {
+      display: block;
+    }
+  }
+}
+.visible-lg {
+  @media screen {
+    display: none;
+    @media (min-width: (@screen-md + 1px)) and (max-width: @screen-lg) {
+      display: block;
+    }
+  }
+}
+.visible-de {
+  @media screen {
+    display: none;
+    @media (min-width: @screen-lg) {
+      display: block;
+    }
+  }
+}
+.hidden-sm {
+  @media screen {
+    display: block;
+    @media (max-width: @screen-sm) {
+      display: none;
+    }
+  }
+}
+.hidden-md {
+  @media screen {
+    display: block;
+    @media (min-width: (@screen-sm + 1px)) and (max-width: @screen-md) {
+      display: none;
+    }
+  }
+}
+.hidden-lg {
+  @media screen {
+    display: block;
+    @media (min-width: (@screen-md + 1px)) and (max-width: @screen-lg) {
+      display: none;
+    }
+  }
+}
+.hidden-de {
+  @media screen {
+    display: block;
+    @media (min-width: @screen-lg) {
+      display: none;
+    }
+  }
 }
 
 .bra-color { color: @color-bra-1; }

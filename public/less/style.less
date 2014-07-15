@@ -35,49 +35,49 @@
 
 .bra-style {
   .bra-colors1;
-  .goal {
+  .goal-l, .goal-r {
     p { .bra-colors2; }
   }
 }
 .ned-style {
   .ned-colors1;
-  .goal {
+  .goal-l, .goal-r {
     p { .ned-colors2; }
   }
 }
 .col-style {
   .col-colors1;
-  .goal {
+  .goal-l, .goal-r {
     p { .col-colors2; }
   }
 }
 .crc-style {
   .crc-colors1;
-  .goal {
+  .goal-l, .goal-r {
     p { .crc-colors2; }
   }
 }
 .fra-style {
   .fra-colors1;
-  .goal {
+  .goal-l, .goal-r {
     p { .fra-colors2; }
   }
 }
 .arg-style {
   .arg-colors1;
-  .goal {
+  .goal-l, .goal-r {
     p { .arg-colors2; }
   }
 }
 .ger-style {
   .ger-colors1;
-  .goal {
+  .goal-l, .goal-r {
     p { .ger-colors2; }
   }
 }
 .bel-style {
   .bel-colors1;
-  .goal {
+  .goal-l, .goal-r {
     p { .bel-colors2; }
   }
 }
@@ -89,7 +89,7 @@
 }
 
 #champion {
-  background: url("/imgs/2405202_big-lnd.jpg") no-repeat fixed;
+  background: url("/imgs/germany.jpg") no-repeat fixed;
   background-size: 100%;
   background-position: center 20px;
   .func_size(600px, 100%);
@@ -101,9 +101,17 @@
     float: left;
     > div {
       .func_radius(5px);
-      height: 70px;
+      max-width: 90%;
+      @media screen {
+        height: 100px;
+        @media (max-width: @screen-sm) {
+          height: 100px;
+        }
+        @media (min-width: (@screen-sm + 1px)) and (max-width: @screen-md) {
+          height: 100px;
+        }
+      }
       margin: 0 auto;
-      max-width: 110px;
       padding-top: 10px;
     }
   }
@@ -128,10 +136,13 @@
     .match { width: 100%; }
   }
   #third {
-    .match { width: 40%; }
+    .match {
+      margin-top: 10px;
+      width: 45%;
+    }
     .up-line {
       float: left;
-      .func_size(130px, 20%);
+      .func_size(130px, 10%);
       .line {
         background: @color-base;
         height: 100%;
@@ -139,9 +150,9 @@
         width: 1px;
       }
     }
-    .blank {
+    .blank-big {
       float: left;
-      .func_size(1px, 40%);
+      .func_size(1px, 45%);
     }
   }
   #semi {
@@ -182,43 +193,120 @@
     text-transform: uppercase;
     padding-bottom: 4px;
     word-spacing: 0.6em;
-  }
-  .result {
-    width: 100%;
-    > div { float: left; }
-
-    .team-l {
-      width: 30%;
-      text-align: center;
-      text-transform: uppercase;
+    @media screen {
+      display: block;
+      margin-top: 10px;
+      @media (max-width: @screen-sm) {
+        display: none;
+      }
+      @media (min-width: (@screen-sm - 1px)) and (max-width: @screen-md) {
+        font-size: 0.2em;
+      }
     }
-    .team-r {
-      width: 30%;
+  }
+  .teams {
+    width: 100%;
+    .team-l, .team-r {
+      float: left;
       text-align: center;
       text-transform: uppercase;
+      @media screen {
+        width: 30%;
+        @media (min-width: (@screen-sm - 1px)) and (max-width: @screen-md) {
+          width: 50%;
+        }
+      }
     }
     .blank {
-      .func_size(1px, 40%);
+      float: left;
+      @media screen {
+        .func_size(1px, 40%);
+        @media (min-width: (@screen-sm - 1px)) and (max-width: @screen-md) {
+          .func_size(0, 0);
+        }
+      }
     }
   }
   .flags {
+    text-align: center;
     width: 100%;
-    > div {
-      float: left;
-      text-align: center;
-      width: 30%;
-    }
-    .goal {
-      text-align: center;
-      width: 17%;
-      p {
-        margin: 0 auto;
-        .func_size(15px, 15px);
+    .flag-l, .flag-r {
+      height: 12px;
+      @media screen {
+        float: left;
+        width: 25%;
+        @media (max-width: @screen-sm) {
+          float: none;
+          width: 100%;
+          margin: 2px 0;
+        }
+        @media (min-width: (@screen-sm - 1px)) and (max-width: @screen-md) {
+          float: left;
+          width: 50%;
+        }
       }
     }
-    .score { width: 6%; }
+  }
+  .goals {
+    text-align: center;
+    @media screen {
+      float: left;
+      width: 50%;
+      @media (max-width: @screen-sm) {
+        float: none;
+        width: 100%;
+      }
+      @media (min-width: (@screen-sm - 1px)) and (max-width: @screen-md) {
+        float: left;
+        margin: 4px 0;
+        width: 100%;
+      }
+    }
+    .goal-l, .goal-r {
+      line-height: 16px;
+      @media screen {
+        float: left;
+        width: 40%;
+        @media (max-width: @screen-sm) {
+          float: none;
+          width: 100%;
+        }
+        @media (min-width: (@screen-sm - 1px)) and (max-width: @screen-md) {
+          float: left;
+          width: 50%;
+        }
+      }
+      p {
+        margin: 0 auto;
+        .func_size(16px, 16px);
+      }
+    }
+    .goal-l {
+      @media screen {
+        @media (max-width: @screen-sm) {
+          margin-bottom: 4px;
+        }
+      }
+    }
+    .score {
+      float: left;
+      width: 20%;
+      @media screen {
+        display: block;
+        @media (max-width: @screen-sm) {
+          display: none;
+        }
+      }
+    }
   }
   .extra {
+    p {
+      @media screen {
+        @media (max-width: @screen-sm) {
+          font-size: 0.2em;
+        }
+      }
+    }
     padding-top: 4px;
     width: 100%;
     text-align: center;
@@ -226,7 +314,7 @@
 }
 
 #group-stage {
-  background: url("/imgs/2405422_BIG-LND.jpg") no-repeat fixed;
+  background: url("/imgs/messi.jpg") no-repeat fixed;
   background-size: 100%;
   background-position: center;
   margin-top: 50px;
@@ -325,7 +413,7 @@
       width: 8%;
       p {
         margin: 0 auto;
-        .func_size(15px, 15px);
+        .func_size(16px, 16px);
       }
     }
     .score {

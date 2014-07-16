@@ -101,13 +101,15 @@
     float: left;
     > div {
       .func_radius(5px);
-      max-width: 90%;
       @media screen {
+        max-width: 90px;
         height: 100px;
         @media (max-width: @screen-sm) {
+          max-width: 40px;
           height: 100px;
         }
         @media (min-width: (@screen-sm + 1px)) and (max-width: @screen-md) {
+          max-width: 60px;
           height: 100px;
         }
       }

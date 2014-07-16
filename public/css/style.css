@@ -28,7 +28,7 @@ a {
     display: none;
   }
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 560px) {
   .visible-sm {
     display: block;
   }
@@ -38,7 +38,7 @@ a {
     display: none;
   }
 }
-@media screen and (min-width: 541px) and (max-width: 800px) {
+@media screen and (min-width: 561px) and (max-width: 800px) {
   .visible-md {
     display: block;
   }
@@ -68,7 +68,7 @@ a {
     display: block;
   }
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 560px) {
   .hidden-sm {
     display: none;
   }
@@ -78,7 +78,7 @@ a {
     display: block;
   }
 }
-@media screen and (min-width: 541px) and (max-width: 800px) {
+@media screen and (min-width: 561px) and (max-width: 800px) {
   .hidden-md {
     display: none;
   }
@@ -395,22 +395,24 @@ a {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  max-width: 90%;
   margin: 0 auto;
   padding-top: 10px;
 }
 @media screen {
   #knockout-stage .match > div {
+    max-width: 90px;
     height: 100px;
   }
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 560px) {
   #knockout-stage .match > div {
+    max-width: 40px;
     height: 100px;
   }
 }
-@media screen and (min-width: 541px) and (max-width: 800px) {
+@media screen and (min-width: 561px) and (max-width: 800px) {
   #knockout-stage .match > div {
+    max-width: 60px;
     height: 100px;
   }
 }
@@ -493,12 +495,12 @@ a {
     margin-top: 10px;
   }
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 560px) {
   #knockout-stage .date {
     display: none;
   }
 }
-@media screen and (min-width: 539px) and (max-width: 800px) {
+@media screen and (min-width: 559px) and (max-width: 800px) {
   #knockout-stage .date {
     font-size: 0.2em;
   }
@@ -518,7 +520,7 @@ a {
     width: 30%;
   }
 }
-@media screen and (min-width: 539px) and (max-width: 800px) {
+@media screen and (min-width: 559px) and (max-width: 800px) {
   #knockout-stage .teams .team-l,
   #knockout-stage .teams .team-r {
     width: 50%;
@@ -533,7 +535,7 @@ a {
     width: 40%;
   }
 }
-@media screen and (min-width: 539px) and (max-width: 800px) {
+@media screen and (min-width: 559px) and (max-width: 800px) {
   #knockout-stage .teams .blank {
     height: 0;
     width: 0;
@@ -554,7 +556,7 @@ a {
     width: 25%;
   }
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 560px) {
   #knockout-stage .flags .flag-l,
   #knockout-stage .flags .flag-r {
     float: none;
@@ -562,7 +564,7 @@ a {
     margin: 2px 0;
   }
 }
-@media screen and (min-width: 539px) and (max-width: 800px) {
+@media screen and (min-width: 559px) and (max-width: 800px) {
   #knockout-stage .flags .flag-l,
   #knockout-stage .flags .flag-r {
     float: left;
@@ -578,13 +580,13 @@ a {
     width: 50%;
   }
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 560px) {
   #knockout-stage .goals {
     float: none;
     width: 100%;
   }
 }
-@media screen and (min-width: 539px) and (max-width: 800px) {
+@media screen and (min-width: 559px) and (max-width: 800px) {
   #knockout-stage .goals {
     float: left;
     margin: 4px 0;
@@ -602,14 +604,14 @@ a {
     width: 40%;
   }
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 560px) {
   #knockout-stage .goals .goal-l,
   #knockout-stage .goals .goal-r {
     float: none;
     width: 100%;
   }
 }
-@media screen and (min-width: 539px) and (max-width: 800px) {
+@media screen and (min-width: 559px) and (max-width: 800px) {
   #knockout-stage .goals .goal-l,
   #knockout-stage .goals .goal-r {
     float: left;
@@ -622,7 +624,7 @@ a {
   height: 16px;
   width: 16px;
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 560px) {
   #knockout-stage .goals .goal-l {
     margin-bottom: 4px;
   }
@@ -636,7 +638,7 @@ a {
     display: block;
   }
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 560px) {
   #knockout-stage .goals .score {
     display: none;
   }
@@ -646,7 +648,7 @@ a {
   width: 100%;
   text-align: center;
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 560px) {
   #knockout-stage .extra p {
     font-size: 0.2em;
   }

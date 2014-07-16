@@ -1,6 +1,5 @@
 <?php
 
-$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 return array(
 
 	/*
@@ -55,11 +54,11 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-            'host'      => $host,
-            'database'  => $database,
-            'username'  => $username,
-            'password'  => $password,
-            'charset'   => 'utf8',
+			'host'      => 'us-cdbr-east-06.cleardb.net',
+			'database'  => 'heroku_3240344dbe568c6',
+			'username'  => 'b24ff94a8b4ce2',
+			'password'  => '4f57b9a5',
+			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
 		),

@@ -1,12 +1,16 @@
 {
   "name": "world-cup-2014-laravel",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "Gruntfile.coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:etsushisa/world-cup-2014-laravel.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "grunt": "^0.4.5",

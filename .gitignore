@@ -8,3 +8,4 @@ composer.phar
 Thumbs.db
 .idea
 /node_modules
+package.json

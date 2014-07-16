@@ -4,8 +4,7 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
-		"laravel/framework": "4.2.*",
-        "heroku/heroku-buildpack-php": "v25"
+		"laravel/framework": "4.2.*"
     },
 	"autoload": {
 		"classmap": [
@@ -37,6 +36,7 @@
 	"minimum-stability": "stable",
 	"require-dev": {
 		"way/generators": "2.*",
-        "barryvdh/laravel-ide-helper": "1.*"
+        "barryvdh/laravel-ide-helper": "1.*",
+        "heroku/heroku-buildpack-php": "v25"
 	}
 }

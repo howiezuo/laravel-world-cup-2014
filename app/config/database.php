@@ -1,5 +1,6 @@
 <?php
 
+$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 return array(
 
 	/*
@@ -53,12 +54,12 @@ return array(
 		),
 
 		'mysql' => array(
-            'host'      => $_ENV['MY_DB_HOST'],
-            'database'  => $_ENV['MY_DB_NAME'],
-            'username'  => $_ENV['MY_DB_USER'],
-            'password'  => $_ENV['MY_DB_PASS'],
-			'password'  => '',
-			'charset'   => 'utf8',
+			'driver'    => 'mysql',
+            'host'      => $host,
+            'database'  => $database,
+            'username'  => $username,
+            'password'  => $password,
+            'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
 		),

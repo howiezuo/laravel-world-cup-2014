@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7b665e282f3a051b0b1c5991c343e9b2",
+    "hash": "29ec3b51fc67f53d91e41b5206966524",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -144,50 +144,6 @@
                 "zf2"
             ],
             "time": "2014-05-13 05:05:11"
-        },
-        {
-            "name": "heroku/heroku-buildpack-php",
-            "version": "v25",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "a4a46962faaabe34a21d397547b85452d13efc8b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/a4a46962faaabe34a21d397547b85452d13efc8b",
-                "reference": "a4a46962faaabe34a21d397547b85452d13efc8b",
-                "shasum": ""
-            },
-            "bin": [
-                "bin/heroku-hhvm-apache2",
-                "bin/heroku-hhvm-nginx",
-                "bin/heroku-php-apache2",
-                "bin/heroku-php-nginx"
-            ],
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "David Zuelke",
-                    "email": "dz@heroku.com"
-                }
-            ],
-            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP/HHVM and Apache2/Nginx as on Heroku",
-            "homepage": "http://github.com/heroku/heroku-buildpack-php",
-            "keywords": [
-                "apache",
-                "apache2",
-                "foreman",
-                "heroku",
-                "hhvm",
-                "nginx",
-                "php"
-            ],
-            "time": "2014-07-15 09:28:11"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -1755,6 +1711,50 @@
                 "sublime"
             ],
             "time": "2014-06-29 14:07:17"
+        },
+        {
+            "name": "heroku/heroku-buildpack-php",
+            "version": "v25",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/heroku/heroku-buildpack-php.git",
+                "reference": "a4a46962faaabe34a21d397547b85452d13efc8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/a4a46962faaabe34a21d397547b85452d13efc8b",
+                "reference": "a4a46962faaabe34a21d397547b85452d13efc8b",
+                "shasum": ""
+            },
+            "bin": [
+                "bin/heroku-hhvm-apache2",
+                "bin/heroku-hhvm-nginx",
+                "bin/heroku-php-apache2",
+                "bin/heroku-php-nginx"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Zuelke",
+                    "email": "dz@heroku.com"
+                }
+            ],
+            "description": "Toolkit for starting a PHP application locally, with or without foreman, using the same config for PHP/HHVM and Apache2/Nginx as on Heroku",
+            "homepage": "http://github.com/heroku/heroku-buildpack-php",
+            "keywords": [
+                "apache",
+                "apache2",
+                "foreman",
+                "heroku",
+                "hhvm",
+                "nginx",
+                "php"
+            ],
+            "time": "2014-07-15 09:28:11"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
